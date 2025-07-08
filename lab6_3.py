@@ -25,9 +25,7 @@ while True:
             temp_fahrenheit = CelToFahr(temp_celsius)
             print(f"Temperature: {temp_celsius}°C -> {temp_fahrenheit}°F")
         else:
-            temp_fahrenheit = CelToFahr(temp_celsius)
-            temp_converted_celsius = FahrToCel(temp_fahrenheit)
-            print(f"Temperature: {temp_fahrenheit}°F -> {temp_converted_celsius}°C")
+            print(f"Temperature: {temp_fahrenheit}°F -> {temp_celsius}°C")
 
         time.sleep(0.1)
     else:
